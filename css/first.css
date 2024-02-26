@@ -1,0 +1,77 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: #006a4e;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Style the hero section */
+.hero {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f4f4f4;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.container {
+  width: 90%;
+  height: 25rem;
+  margin: 0 auto;
+}
+
+.main_view {
+  width: 80%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main_view img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.side_view {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.side_view img {
+  width: 9rem;
+  height: 7rem;
+  object-fit: cover;
+  cursor: pointer;
+  margin: 0.5rem;
+}
